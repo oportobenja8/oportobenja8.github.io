@@ -1,0 +1,50 @@
+/*limpieza de margenes*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-display: Arial, sans-serif;
+}
+/*contenedor global*/
+.page-container{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+/*estilos de encabezado*/
+.header{
+	background-color: #2c3e50;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+.middle-container{
+	display: flex;
+	flex: 1;
+}
+/*el lado lateral son 3 partes*/
+.sidebar{
+	width: 250px;
+	background-color: #ecf0f1;
+	padding: 20px;
+}
+.sidebar ul{
+	list-style: none;
+}
+.sidebar li{
+	margin-bottom: 10px;
+}
+/*contenido principal*/
+.main-content{
+	flex: 1;
+	padding: 20px;
+	background-color: #ffffff;
+	align-content: center;
+}
+/*pie*/
+.footer{
+	background-color: #34495e;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
